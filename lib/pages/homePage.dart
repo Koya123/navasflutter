@@ -146,7 +146,7 @@ class _AstronomyHomePageState extends State<AstronomyHomePage> {
       _title = _fetchedData['title'];
       _explanation = _fetchedData['explanation'];
     });
-    print(_fetchedData);
+    
   }
 
   Future<Null> _selectDate() async {
